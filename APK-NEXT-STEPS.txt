@@ -1,0 +1,14 @@
+IRON MANDATE APK PROJECT
+
+This ZIP is prepared for Capacitor 8.
+
+The original Grok project is a TanStack Start app with server-side functions,
+so the APK needs the deployed web app URL for the backend.
+
+1. Set CAP_SERVER_URL to your deployed Iron Mandate URL.
+2. Run: npm install
+3. Run: npx cap add android
+4. Run: npm run mobile:sync
+5. Run: cd android && ./gradlew assembleDebug
+
+See BUILD-APK.md for the same instructions and the GitHub Actions option.
